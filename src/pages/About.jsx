@@ -107,12 +107,12 @@ const About = () => {
 
   const team = [
     {
-      name: 'Rhea Sharma',
+      name: 'Supraja',
       role: 'Founder & CEO',
       img: 'https://media.istockphoto.com/id/1317804578/photo/one-businesswoman-headshot-smiling-at-the-camera.jpg?s=612x612&w=0&k=20&c=EqR2Lffp4tkIYzpqYh8aYIPRr-gmZliRHRxcQC5yylY=',
     },
     {
-      name: 'Aarav Patel',
+      name: 'Shiva Hariny',
       role: 'Head of Design',
       img: 'https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwbWFufGVufDB8fDB8fHww',
     },
