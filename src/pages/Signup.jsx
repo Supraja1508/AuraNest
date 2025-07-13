@@ -76,7 +76,7 @@ const handleSubmit = async (e) => {
         />
         <button type="submit" className={styles.authButton}>Create Account</button>
         <p className={styles.authSwitch}>
-          Already have an account? <Link to="/AuraNest/login">Sign up</Link>
+          Already have an account? <Link to="/AuraNest/login">Login</Link>
         </p>
       </form>
     </div>
