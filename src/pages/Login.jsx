@@ -75,7 +75,7 @@ const Login = () => {
         />
         <button type="submit" className={styles.authButton}>Log In</button>
         <p className={styles.authSwitch}>
-          Don’t have an account? <a href="/AuraNest/signup">Sign up</a>
+          Don’t have an account? <Link to="/AuraNest/signup">Sign up</Link>
         </p>
       </form>
     </div>
