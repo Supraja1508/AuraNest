@@ -15,7 +15,7 @@ const Shop = () => {
   );
 
   const handleBuyNow = (product) => {
-    navigate('/checkout', {
+    navigate('/AuraNest/checkout', {
       state: { product: { ...product, quantity: 1 } },
     });
   };
@@ -39,7 +39,7 @@ const Shop = () => {
             <div
               key={product.id}
               className={styles.productCard}
-              onClick={() => navigate(`/product/${product.id}`)}
+              onClick={() => navigate(`/AuraNest/product/${product.id}`)}
             >
               <img src={product.image} alt={product.name} />
               <h3>{product.name}</h3>
