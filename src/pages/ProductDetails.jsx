@@ -14,7 +14,7 @@ const ProductDetails = () => {
   if (!product) return <p>Product not found</p>;
 
   const handleAddToCart = () => addToCart(product);
-  const handleBuyNow = () => navigate('/checkout', { state: { product: { ...product, quantity: 1 } } });
+  const handleBuyNow = () => navigate('/AuraNest/checkout', { state: { product: { ...product, quantity: 1 } } });
 
   return (
     <div className={styles.details}>
