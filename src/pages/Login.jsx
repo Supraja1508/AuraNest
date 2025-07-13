@@ -32,7 +32,7 @@ const Login = () => {
         });
 
         setTimeout(() => {
-          navigate('/AuraNest/home'); // ✅ Redirect after sweet alert
+          navigate('/AuraNest'); // ✅ Redirect after sweet alert
         }, 2000); // Wait for sweet alert timeout
 
         setForm({ email: '', password: '' });
