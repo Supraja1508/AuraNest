@@ -66,7 +66,7 @@ const Cart = () => {
               <strong>Total</strong>
               <strong>₹{subtotal.toFixed(2)}</strong>
             </div>
-            <Link to="/checkout">
+            <Link to="/AuraNest/checkout">
               <button className={styles.checkout}>Proceed to Checkout</button>
             </Link>
           </div>
