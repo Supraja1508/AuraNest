@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../styles/Auth.module.css'; // Importing as CSS module
 import Swal from 'sweetalert2';
-
+import {  Link } from 'react-router-dom'; // ✅ Use this hook
 const Signup = () => {
   const [form, setForm] = useState({ name: '', email: '', password: '' });
 
@@ -76,7 +76,7 @@ const handleSubmit = async (e) => {
         />
         <button type="submit" className={styles.authButton}>Create Account</button>
         <p className={styles.authSwitch}>
-          Already have an account? <a href="/AuraNest/login">Log in</a>
+          Already have an account? <Link to="/AuraNest/login">Sign up</Link>
         </p>
       </form>
     </div>
